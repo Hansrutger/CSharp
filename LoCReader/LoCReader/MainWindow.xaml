@@ -1,0 +1,25 @@
+﻿<Window x:Class="LoCReader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoCReader"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="356.667" Width="525" ResizeMode="NoResize"
+        >
+    <Grid>
+        <Button x:Name="runBtn" Content="Search" HorizontalAlignment="Left" Margin="283,200,0,0" VerticalAlignment="Top" Width="105" Height="27" Click="runBtn_Click"/>
+        <Label x:Name="statusLb" Content="processing&#xD;&#xA;" HorizontalAlignment="Left" Margin="214,256,0,0" VerticalAlignment="Top" Width="188" Height="27"/>
+        <TextBox x:Name="directoryTxt" HorizontalAlignment="Left" Height="23" Margin="71,151,0,0" TextWrapping="Wrap" Text="C:\" VerticalAlignment="Top" Width="436"/>
+        <Label x:Name="label" Content="Directory:" HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="browseBtn" Content="Browse" HorizontalAlignment="Left" Margin="140,200,0,0" VerticalAlignment="Top" Width="105" Height="27" Click="browseBtn_Click"/>
+        <Label x:Name="resLb" Content="Result:" HorizontalAlignment="Left" Margin="168,256,0,0" VerticalAlignment="Top" Width="56"/>
+        <ListBox x:Name="extensionListBox" HorizontalAlignment="Left" Height="106" Margin="313,22,0,0" VerticalAlignment="Top" Width="100" MouseDoubleClick="extensionListBox_DoubleClick">
+        </ListBox>
+        
+        <Button x:Name="addExtensionBtn" Content="Add" HorizontalAlignment="Left" Margin="85,61,0,0" VerticalAlignment="Top" Width="58" Height="24" Click="addExtensionBtn_Click"/>
+        <TextBox x:Name="extensionTxt" HorizontalAlignment="Left" Height="23" Margin="168,61,0,0" TextWrapping="Wrap" Text=".extension" VerticalAlignment="Top" Width="120" KeyUp="extensionTxt_KeyUp"/>
+
+        <Label x:Name="label1" Content="Created by Hansrutger 2017-05-28" HorizontalAlignment="Left" Margin="0,298,0,0" VerticalAlignment="Top" Width="198" Opacity="0.4" FontSize="8"/>
+    </Grid>
+</Window>
