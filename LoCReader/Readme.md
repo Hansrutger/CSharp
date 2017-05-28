@@ -1,4 +1,4 @@
 This program is meant to read lines of code on the extensions that were input and on the folder that was selected (including its subfolders).
 
 
-http://i.imgur.com/pk5V0Nh.png
+
