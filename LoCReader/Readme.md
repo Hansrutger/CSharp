@@ -5,6 +5,8 @@ Instructions:
 2. Select directory.
 3. Click on Search.
 
+
+
 Example:
 1. Add ".cs" without the quotation marks and click "Add" or press enter.
 2. Select a directory without quotation marks.
