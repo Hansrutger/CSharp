@@ -10,5 +10,5 @@ Instructions:
 Example:
 1. Add ".cs" without the quotation marks and click "Add" or press enter.
 2. Select a directory without quotation marks.
-3. Search and the program should crash.
+3. Search and the program should give result.
 
